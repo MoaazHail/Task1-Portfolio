@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-800 z-20 fixed w-screen p-5 border-t-gray-200 border-t-4">
+      <nav className="bg-gray-800 z-20 fixed w-full p-5 border-t-gray-200 border-t-4">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="" className="p-3 text-white font-bold text-4xl">
             START FRAMEWORK

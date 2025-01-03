@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
-        <div className='flex items-center justify-around p-24  bg-gray-800 text-white '>
+        <div className='flex items-center justify-around p-24  bg-gray-800 text-white  w-full'>
             <div>
                 <h1 className='font-bold text-4xl py-5'>Location</h1>
                 <i className="fa-solid fa-location-dot text-2xl text-red-600 ml-10"></i>
