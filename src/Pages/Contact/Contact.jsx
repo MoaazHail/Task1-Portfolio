@@ -40,10 +40,10 @@ export default function ContactUs() {
     });
     
     return (
-        <div className='container'>
-            <h1 className='text-center text-gray-800 text-7xl font-bold p-10'>Contact Me</h1>
+        <>
+            <h1 className='text-center text-gray-800 text-4xl md:text-7xl font-bold p-10'>Contact Me</h1>
             
-            <form className="max-w-md mx-auto m-10" onSubmit={formik.handleSubmit}>
+            <form className="max-w-md mx-auto m-10 p-4" onSubmit={formik.handleSubmit}>
 
             
             <div className="relative z-0 w-full mb-10 group">
@@ -83,6 +83,6 @@ export default function ContactUs() {
             <button type="submit" className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg  text-xl w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
             </form>
 
-        </div>
+        </>
     )
 }
