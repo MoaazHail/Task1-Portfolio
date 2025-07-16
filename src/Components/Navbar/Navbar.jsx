@@ -6,12 +6,12 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-800 z-20 fixed w-full p-5 border-t-gray-200 border-t-4">
+      <nav className="sticky bg-gray-800 z-20 w-full top-0 border-t-gray-200 border-t-4">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <Link to="" className="p-3 text-white font-bold text-4xl">
+          <Link to="/" className="p-3 text-white font-bold text-xl md:text-4xl">
             START FRAMEWORK
           </Link>
-          <div className=" md:hidden font-bold text-3xl border-gray-400">
+          <div className=" md:hidden font-bold text-2xl border-gray-400">
             <i className="fa-solid fa-bars text-white p-2" onClick={()=>{setToggle(!toggle)}}></i>
           </div>
 
@@ -19,17 +19,17 @@ export default function Navbar() {
             <div className="w-full md:block md:w-auto">
               <ul className=" flex flex-col p-4 gap-5 md:p-0 mt-4 rounded-lg font-bold text-xl md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
                 <li className=" list-none">
-                  <NavLink to="about" className="p-3 text-white">
+                  <NavLink to="about" className="p-3 text-white" onClick={()=>{setToggle(!toggle)}}>
                     About
                   </NavLink>
                 </li>
                 <li className=" list-none">
-                  <NavLink to="portfolio" className="p-3 text-white">
+                  <NavLink to="portfolio" className="p-3 text-white"  onClick={()=>{setToggle(!toggle)}}>
                     Portfolio
                   </NavLink>
                 </li>
                 <li className=" list-none">
-                  <NavLink to="contact" className="p-3 text-white">
+                  <NavLink to="contact" className="p-3 text-white"  onClick={()=>{setToggle(!toggle)}}>
                     Contact
                   </NavLink>
                 </li>

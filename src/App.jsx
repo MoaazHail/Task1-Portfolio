@@ -1,12 +1,11 @@
 import React from 'react'
-import Portfolio from './Components/Portfolio/Portfolio'
-import Navbar from './Components/Navbar/Navbar'
-import Home from './Components/Home/Home'
+import Portfolio from './Pages/Portfolio/Portfolio'
+import Home from './Pages/Home/Home'
 import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
-import ContactUs from './Components/Contact/Contact';
-import About from './Components/About/About';
-import NotFound from './Components/NotFound/NotFound';
+import ContactUs from './Pages/Contact/Contact';
+import About from './Pages/About/About';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 
