@@ -53,7 +53,7 @@ The website is logically divided into four distinct and intuitive sections to pr
 
 ## Deployment 
 
-I use Vercel to deployment this project - [My Store](https://e-commerce-updated-beta.vercel.app/) 
+I use Vercel to deployment this project - [Portfolio](https://task1-portfolio.vercel.app/) 
 
 -----
 
